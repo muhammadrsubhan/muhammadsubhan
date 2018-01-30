@@ -1,0 +1,100 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.row
+{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+header
+{
+	color: yellow;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(img1.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+} 
+body
+{
+	left: 80%;
+}
+{
+	font-family: tahoma;
+}
+.menu
+{
+
+	position: absolute;
+	width: 1140px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+.main-container{
+	position: absolute;
+	width: 2220px;
+	top: 180%;
+	left: 20%;
+
+        
+    }
+.highlight  {
+    width: 600px;
+    color: white;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius:20px;
+    padding: 3%;
+    
+	}
+    
+.highlight img {
+    
+    float: left;
+    width: 100px;
+    height: 100px; 
+    margin: 10px;
+    }
+    
+.highlight ul {
+    margin-left: 1%;
+    float: left; 
+    clear: right
+    }
+ .highlight h1,h2,h3 {
+    padding-bottom: 2%;
+  	border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
+    font-size:20px;
+    text-align : center;
+  	}
+    
+.highlight button {
+   margin-left: 1%;
+    float: right;
+    }
+
+.button
+{
+	margin-top: 50px;
+}
+
+.btn
+{
+	border:1px solid orange;
+	padding: 10px 30px;
+	color: black;
+	text-decoration: none;
+	border-radius: 12px;
+	margin-right: 15px;
+}
+.btn-primary
+{
+	background-color: orange;
+	color: white;
+	transition: all 0.5s ease-in
+}
